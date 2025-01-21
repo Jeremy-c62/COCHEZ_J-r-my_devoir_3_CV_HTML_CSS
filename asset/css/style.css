@@ -142,7 +142,7 @@ li::marker{ /* pour séléctionner les "balises" */
 }
 
 li{
-    list-style-type: square;    /*Donne une forme carré aux "balises" de liste */
+    list-style-type: square; /*Donne une forme carré aux "balises" de liste */
 }
 ul{
     text-align: left;
