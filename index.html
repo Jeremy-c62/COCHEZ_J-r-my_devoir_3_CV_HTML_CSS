@@ -1,209 +1,260 @@
 <!DOCTYPE html>
 <html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="CV en ligne de COCHEZ Jérémy, développeur Web et Web Mobile."
+    />
+    <title>Mon CV en ligne - C.Jérémy</title>
+    <link rel="stylesheet" href="./asset/css/style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Vous trouverez sur cette page mon CV, avec l'application des outils HTML et CSS.">
-    <title>Mon CV en ligne</title>
-    <link rel="stylesheet" href="./asset/css/style.css">
-</head>
+  <body>
+    <header>
+      <div class="en_tete">
+        <div class="photo_de_profil">
+          <img
+            src="./asset/css/images/photo_profil.jpg"
+            class="profil-img"
+            alt="Photo de profil de COCHEZ Jérémy"
+          />
+        </div>
+        <div class="mes_infos">
+          <h1>C.Jérémy</h1>
+          <h2>Développeur Web full stack</h2>
+          <div class="info_2">
+            <a href="mailto:j.cochez@mail.fr">
+              <img
+                src="./asset/css/images/email.png"
+                class="icone"
+                alt="Icône email"
+              />
+              C.jeremy@mail.fr
+            </a>
+            <a href="tel:0606060606">
+              <img
+                src="./asset/css/images/telephone.png"
+                class="icone"
+                alt="Icône téléphone"
+              />
+              06 06 06 06 06
+            </a>
+            <a href="https://maps.app.goo.gl/5tnUGFMAPzELCqz86" target="_blank">
+              <img
+                src="./asset/css/images/maison.png"
+                class="icone"
+                alt="Icône localisation"
+              />
+              Localisation
+            </a>
+            <div class="permis">
+              <img
+                src="./asset/css/images/voiture.png"
+                class="icone"
+                alt="Icône voiture"
+              />
+              <span>Permis B</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
 
-<body>
-
-    <main>
-        <header>
-            <div class="en_tete">
-                <div class="photo_de_profil">
-                    <img src="../COCHEZ_Jérémy_devoir_3_CV_HTML_CSS/asset/css/images/photo_profil.jpg"
-                        class="photo_de_profil" alt="photo_de_profil">
-                </div>
-                <div class="mes_infos">
-                    <h1>COCHEZ Jérémy</h1>
-                    <h2>Développeur Web et Web Mobile</h2>
-                    <div class="info_2">
-                        <a href="mailto:j.cochez@mail.fr">
-                            <img src="../COCHEZ_Jérémy_devoir_3_CV_HTML_CSS/asset/css/images/email.png" class="icone"
-                                alt="icone_email">j.cochez@mail.fr
-                        </a>
-                        <a href="tel:0606060606">
-                            <img src="../COCHEZ_Jérémy_devoir_3_CV_HTML_CSS/asset/css/images/telephone.png"
-                                class="icone" alt="icone_telephone">0606060606</a>
-                        <div class="maison">
-                            <a href="https://maps.app.goo.gl/5tnUGFMAPzELCqz86"
-                                target="_blank">
-                            <img src="../COCHEZ_Jérémy_devoir_3_CV_HTML_CSS/asset/css/images/maison.png"
-                                class="icone" alt="icone_maison">Maison</a></div>
-                        <figure><img src="../COCHEZ_Jérémy_devoir_3_CV_HTML_CSS/asset/css/images/voiture.png"
-                                class="icone" alt="icone_voiture">
-                            <figcaption>Permis B</figcaption>
-                        </figure>
-                    </div>
-                </div>
+    <main class="page">
+      <!-- SECTION GAUCHE -->
+      <section class="section-gauche">
+        <h3>Compétences</h3>
+        <hr class="separation" />
+        <div class="competences">
+          <div class="partie_g1">
+            <div class="ligne1">
+              <div>Travail en équipe</div>
+              <div class="etoile">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+            </div>
+            <div class="ligne1">
+              <div>Gestion d'équipe</div>
+              <div class="etoile">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+            </div>
+            <div class="ligne1">
+              <div>Gestion de projet</div>
+              <div class="etoile">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+            </div>
+            <div class="ligne1">
+              <div>GitHub</div>
+              <div class="etoile">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+            </div>
+            <div class="ligne1">
+              <div>Node.js</div>
+              <div class="etoile">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+            </div>
+            <div class="ligne1">
+              <div>MySQL</div>
+              <div class="etoile">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+            </div>
+            <div class="ligne1">
+              <div>Figma</div>
+              <div class="etoile">&#9733;&#9733;&#9733;&#9734;&#9734;</div>
             </div>
 
-
-        </header>
-        <div class="page">
-            <section class="section-gauche">
-                <h3>Compétences</h3>
-                <hr class="separation">
-                <div class="partie_g1">
-                    <div class="ligne1">
-                        <div>HTML</div>
-                        <div class="etoile">&#9733; &#9733; &#9733; &#9733; &#9734;</div>
-                    </div>
-                    <div class="ligne1">
-                        <div>Python</div>
-                        <div class="etoile">&#9733; &#9733; &#9734; &#9734; &#9734;</div>
-                    </div>
-                    <div class="ligne1">
-                        <div>CSS</div>
-                        <div class="etoile">&#9733; &#9733; &#9733; &#9734; &#9734;</div>
-                    </div>
-                    <div class="ligne1">
-                        <div>Javascript</div>
-                        <div class="etoile">&#9734; &#9734; &#9734; &#9734; &#9734;</div>
-                    </div>
-                    <div class="ligne1">
-                        <div>PHP</div>
-                        <div class="etoile">&#9734; &#9734; &#9734; &#9734; &#9734;</div>
-                    </div>
-                </div>
-                <h3>Langue</h3>
-                <hr class="separation">
-                <div class="partie_g1">
-                    <div class="ligne1">
-                        <div>Français</div>
-                        <div>Langue maternelle</div>
-                    </div>
-                    <div class="ligne1">
-                        <div>Anglais</div>
-                        <div>Niveau B1</div>
-                    </div>
-                </div>
-                <h3>Qualités</h3>
-                <hr class="separation">
-                <div class="partie_g">
-                    <ul>
-                        <li>Esprit d'équipe</li>
-                        <li>Autonomie</li>
-                        <li>Organisation</li>
-                        <li>Créativité</li>
-                    </ul>
-                </div>
-                <h3>Centres d'intérêt</h3>
-                <hr class="separation">
-                <div class="partie_g">
-                    <ul>
-                        <li>Lecture</li>
-                        <li>Cuisine</li>
-                        <li>Informatique</li>
-                    </ul>
-                </div>
-
-            </section>
-            <section class="section-droite">
-                <h3>Profil</h3>
-                <hr class="separation">
-                <div class="partie_d">
-                    <!--Crée ma description, petit texte pour expliquer mon parcour et mon choix de reconversion-->
-                    <div class="indente">J’ai réalisé l’ensemble de ma carrière professionnelle dans le domaine de la
-                        restauration.
-                        J’ai commencé par des études en hôtellerie restauration en passant un BAC professionnel, ensuite
-                        je suis partie sur paris durant 3 année en apprentissage pour approfondir mes connaissances dans
-                        ce domaine,
-                        durant ces 3 années j’ai eu le privilège d’être en contact avec différents produits. Grace au
-                        marché de RUNGIS,
-                        lieu ou se trouver mon centre de formation. Une fois ce diplôme obtenu j’ai décidé de revenir
-                        dans ma région natale ou j’ai travaillé dans diverse entreprise pour mettre en application mon
-                        savoir,
-                        jusqu’à atteindre le poste de SECOND De Cuisine (bras droit du CHEF De Cuisine).</div> <br>
-                    <div class="indente">Je suis restée durant 3 ans à ce poste et ne m’épanouissant plus dans ce corps
-                        de métier j’ai fait le choix, murement réfléchi, de me reconvertir dans un autre domaine.
-                        Le développement WEB et un domaine qui m’a toujours plus et avec le quel il y a beaucoup de
-                        perspective d’évolution, car continuellement évolutif.
-                        D’où se projet de reconversion réaliser auprès de votre centre de formation : Centre Européen De
-                        Formation. Avant de commencer ma reconvertion j'ai réaliser une remise a niveau.
-                        Une fois le diplôme obtenue j'ai enfin réalisé les démarches de reconversion.</div>
-                </div>
-                <h3>Formation</h3>
-                <hr class="separation">
-
-                <div class="partie_d">
-                    <div class="lieu">
-                        <div>
-                            <p><strong>Tire pro Développeur Web et Web mobile</strong><br>
-                                Centre européen de formation, Villeneuve-d'Ascq.</p>
-                        </div>
-                        <div class="day">06/01/2025/ En cour de formation</div>
-                    </div>
-                    <div class="lieu">
-                        <div>
-                            <p><strong>Remise à niveau- Métier numérique</strong><br>
-                                working-live, distanciel</p>
-                        </div>
-                        <div class="day">février 2024 </div>
-                    </div>
-                    <div class="lieu">
-                        <div>
-                            <p><strong>CQP Hôtellerie Restauration</strong><br>
-                                Formation niveau BTS de 3ans</p>
-                        </div>
-                        <div class="day">2012/2015 </div>
-                    </div>
-                    <div class="lieu">
-                        <div>
-                            <p><strong>Bac pro Hôtellerie Restauration</strong><br>
-                                Lycée professionnel</p>
-                        </div>
-                        <div class="day">2010/2012 </div>
-                    </div>
-                </div>
-
-
-                <h3>Expérience professionnelle</h3>
-                <hr class="separation">
-
-                <div class="partie_d">
-                    <div class="lieu">
-                        <div>
-                            <p><strong>Second de cuisine</strong><br>
-                                Hippopotamus, jusqu'à mon projet de reconversion.</p>
-                        </div>
-                        <div class="day">2018/Juin 2024</div>
-                    </div>
-                    <div class="lieu">
-                        <div>
-                            <p><strong> Cuisinier dans divert restaurant</strong><br>
-                                Depuis l'obtention de mon dernier diplôme.</p>
-                        </div>
-                        <div class="day">2015/2018</div>
-                    </div>
-                </div>
-
-            </section>
+            <div class="ligne1">
+              <div>React</div>
+              <div class="etoile">&#9733;&#9733;&#9734;&#9734;&#9734;</div>
+            </div>
+          </div>
         </div>
+
+        <h3>Langues</h3>
+        <hr class="separation" />
+        <div class="partie_g1">
+          <div class="ligne1">
+            <div>Français</div>
+            <div>Langue maternelle</div>
+          </div>
+          <div class="ligne1">
+            <div>Anglais</div>
+            <div>Niveau B1</div>
+          </div>
+        </div>
+
+        <h3>Qualités</h3>
+        <hr class="separation" />
+        <ul class="partie_g">
+          <li>Esprit d'équipe</li>
+          <li>Autonomie</li>
+          <li>Organisation</li>
+          <li>Créativité</li>
+        </ul>
+
+        <h3>Centres d’intérêt</h3>
+        <hr class="separation" />
+        <ul class="partie_g">
+          <li>Lecture</li>
+          <li>Cuisine</li>
+          <li>Informatique</li>
+        </ul>
+      </section>
+
+      <!-- SECTION DROITE -->
+      <section class="section-droite">
+        <h3>Profil</h3>
+        <hr class="separation" />
+        <div class="partie_d">
+          <article class="profil">
+            <p><strong>Développeur web full stack junior</strong></p>
+            <p>
+              Ancien Second de Cuisine avec une expérience de plus de 10 ans
+              dans la restauration, j’ai réalisé une reconversion
+              professionnelle.
+            </p>
+            <p>
+              Aujourd’hui développeur web full stack junior, formé aux
+              technologies front-end et back-end. Autonome, curieux et esprit
+              d’équipe, je recherche un stage ou poste en tant qu’<strong
+                >Assistant Chef de projet informatique</strong
+              >.
+            </p>
+            <p><strong>Atouts transférables :</strong></p>
+            <ul>
+              <li>Organisation, gestion du stress</li>
+              <li>Travail en équipe et encadrement</li>
+              <li>Rigueur et sens du détail</li>
+              <li>Capacité d’apprentissage rapide</li>
+            </ul>
+          </article>
+        </div>
+
+        <h3>Formation</h3>
+        <hr class="separation" />
+        <div class="partie_d">
+          <div class="lieu">
+            <p>
+              <strong>Titre pro Développeur Web et Web Mobile</strong><br />
+              Centre Européen de Formation, Villeneuve-d'Ascq
+            </p>
+            <div class="day">Depuis 06/01/2025 – En cours</div>
+            <ul>
+              <li>
+                HTML, CSS, JavaScript, React, Node.js, PHP, MongoDB, MySQL
+              </li>
+              <li>Projets en autonomie et en groupe</li>
+              <li>Outils collaboratifs : GitHub, Figma</li>
+            </ul>
+          </div>
+          <div class="lieu">
+            <p>
+              <strong>Remise à niveau - Métiers du numérique</strong><br />
+              Working-live, distanciel
+            </p>
+            <div class="day">Février 2024</div>
+          </div>
+          <div class="lieu">
+            <p>
+              <strong>CQP Hôtellerie Restauration</strong><br />
+              Formation niveau BTS – 3 ans
+            </p>
+            <div class="day">2012 - 2015</div>
+          </div>
+          <div class="lieu">
+            <p>
+              <strong>Bac pro Hôtellerie Restauration</strong><br />
+              Lycée professionnel
+            </p>
+            <div class="day">2010 - 2012</div>
+          </div>
+        </div>
+
+        <h3>Expérience professionnelle</h3>
+        <hr class="separation" />
+        <div class="partie_d">
+          <div class="lieu">
+            <p>
+              <strong>Second de cuisine</strong><br />
+              Hippopotamus
+            </p>
+            <div class="day">2018 - Juin 2024</div>
+          </div>
+          <div class="lieu">
+            <p>
+              <strong>Cuisinier dans divers restaurants</strong><br />
+              Suite à l’obtention de mon diplôme
+            </p>
+            <div class="day">2015 - 2018</div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <div class="fin">
-            <div class="resaux">
-                <a href="https://fr.linkedin.com" target="_blank">
-                    <img class="icone" src="../COCHEZ_Jérémy_devoir_3_CV_HTML_CSS/asset/css/images/linkedin.png"
-                        alt="icone likedin"></a>
-                <a href="https://www.instagram.com" target="_blank">
-                    <img class="icone" src="../COCHEZ_Jérémy_devoir_3_CV_HTML_CSS/asset/css/images/instagram.png"
-                        alt="icone instagrame"></a>
-                <a href="https://github.com/Jeremy-c62/COCHEZ_J-r-my_devoir_3_CV_HTML_CSS" target="_blank">
-                    <img class="icone" src="../COCHEZ_Jérémy_devoir_3_CV_HTML_CSS/asset/css/images/git_hub.png"
-                        alt="icone git-hub"></a>
-            </div>
-            <div class="date">
-                <p>mise a jour le <time datetime="2025-01-21T16:00">21/01/2025</time>.</p>
-            </div>
+      <div class="fin">
+        <div class="resaux">
+          <a href="https://fr.linkedin.com" target="_blank">
+            <img
+              class="icone"
+              src="./asset/css/images/linkedin.png"
+              alt="Icône LinkedIn"
+            />
+          </a>
+          <a href="https://www.instagram.com" target="_blank">
+            <img
+              class="icone"
+              src="./asset/css/images/instagram.png"
+              alt="Icône Instagram"
+            />
+          </a>
+          <a href="https://github.com/Jeremy-c62/" target="_blank">
+            <img
+              class="icone"
+              src="./asset/css/images/git_hub.png"
+              alt="Icône GitHub"
+            />
+          </a>
         </div>
+        <div class="date">
+          <p>Mise à jour le <time datetime="2025-01-21">21/01/2025</time>.</p>
+        </div>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
